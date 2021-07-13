@@ -13,8 +13,7 @@ namespace Main
         public static void TakeInput()
         {
             Console.Write(">");
-            string input = Console.ReadLine();
-            Use.command(input);
+            Use.command(Console.ReadLine());
         }
     }
 
