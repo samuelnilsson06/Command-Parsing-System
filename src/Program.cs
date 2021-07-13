@@ -1,5 +1,5 @@
-﻿using System;
-using CommandParsing;
+using System;
+using command;
 
 
 namespace Main
@@ -8,14 +8,14 @@ namespace Main
     {
         static void Main()
         {
-            Console.Title = "Command Parsing system";
             TakeInput();
         }
         public static void TakeInput()
         {
+            Console.Write(">");
             string input = Console.ReadLine();
-
-            commandParse.HandleInput(input);
+            Use.command(input);
         }
     }
+
 }
