@@ -2,4 +2,4 @@
 This is a simple command parsing system made in C#
 
 and...
-It's bad
+It's.. ok i guess..
