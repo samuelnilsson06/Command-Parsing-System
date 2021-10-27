@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace The_CLI
+namespace InputSystem
 {
     class InputManager
     {
